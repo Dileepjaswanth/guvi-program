@@ -1,0 +1,12 @@
+n=input()
+m=list(n)
+o=[]
+for i in range(0,len(m)):
+    if m[i]==('0'):
+        o.append('1')
+    elif m[i]==('1'):
+        o.append('0')
+    else:
+        print("input invalid")
+for i in o:
+    print(i,end="")
