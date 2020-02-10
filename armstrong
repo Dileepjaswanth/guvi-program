@@ -1,0 +1,13 @@
+n=int(input())
+m=str(n)
+o=[]
+p=[]
+for i in range (0,len(m)):
+    o.append(int(m[i]))
+for i in range (0,len(o)):
+    o[i]=(o[i]**3)
+    p.append(o[i])
+if sum(p)==n:
+    print('it is armstrong number')
+else:
+    print('its not a armstrong number')
