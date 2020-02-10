@@ -1,0 +1,6 @@
+n=int(input())
+m=str(n)
+o=[]
+for i in range(0,len(m)):
+    o.append(int(m[i]))
+print(sum(o))
