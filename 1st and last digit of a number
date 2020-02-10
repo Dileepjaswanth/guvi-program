@@ -1,0 +1,4 @@
+n=int(input())
+m=str(n)
+print("First element is:",m[0])
+print("Last element is:",m[-1])
