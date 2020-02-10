@@ -1,0 +1,4 @@
+d=int(n,2)n=input()
+d=int(n,2)
+print(n,"in decimal is: ",d)
+print(n,"in d
