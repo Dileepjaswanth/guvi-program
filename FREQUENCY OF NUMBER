@@ -1,0 +1,8 @@
+n=int(input())
+m=str(n)
+o=[]
+for i in range(0,len(m)):
+    if m[i] not in o:
+        o.append(m[i])        
+for i in range(0,len(o)):
+    print("Frequency of",o[i],"is", m.count(o[i]))
