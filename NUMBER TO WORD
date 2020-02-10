@@ -1,0 +1,27 @@
+n=input("enter the number:")
+m=list(n)
+o=[]
+for i in range(0,len(m)):
+    if m[i]=='0':
+        o.append("zero")
+    elif m[i]=='1':
+        o.append("one")
+    elif m[i]=='2':
+        o.append("two")
+    elif m[i]=='3':
+        o.append("three")
+    elif m[i]=='4':
+        o.append("four")
+    elif m[i]=='5':
+        o.append("five")
+    elif m[i]=='6':
+        o.append("six")
+    elif m[i]=='7':
+        o.append("seven")
+    elif m[i]=='8':
+        o.append("eight")
+    elif m[i]=='9':
+        o.append("nine")
+    else:
+        print('invalid input')
+print(*o)
