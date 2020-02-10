@@ -1,0 +1,4 @@
+n=input()
+d=str(int(n,8))
+decm=int(d)
+print(n,"in hexadecimal is",hex(decm))
