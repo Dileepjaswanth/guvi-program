@@ -1,0 +1,2 @@
+n=input()
+print("the ASCCI value of",n,"is",ord(n))
